@@ -67,6 +67,8 @@ nav ul>li:nth-child(4) a{
     background-size: 100% 100%;
 }
 
+
+
 /*“02news”广告*/
 section .news{
     margin: .1rem 0;
@@ -186,4 +188,39 @@ section .hot_home>p:nth-child(1){
     position: absolute;
     top: 0;
     left: 0;
+}
+
+/*列表图片的动画效果*/
+section #home_list li:hover img{
+    animation: img_anim ease-in infinite 1.2s both;
+}
+
+@keyframes img_anim {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+/*导航图片的动画效果*/
+nav ul li:hover a{
+    animation: scale ease-in infinite 1.2s both;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.1,1.1);
+    }
+    100% {
+        transform: scale(1,1);
+    }
 }

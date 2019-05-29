@@ -11,7 +11,7 @@ window.onload = function () {
     username.onblur = function () {
         //用户名的判断
         //判断“用户名请输入4~10位的数字字母组合”的正则表达式
-        var userReg = /^1(32|33|34|35|86|58|36)\d{8}$/g;
+        var userReg = /^1(32|33|77|35|86|58|36|51)\d{8}$/g;
         if (!(userReg.test(username.value))){
             errText[0].innerText = "手机号格式不正确";
             return false;
@@ -47,7 +47,9 @@ window.onload = function () {
             res_pwd.style.border = "1px solid #61b16a";
             errText[2].innerText = "";
         }
-    }
+    };
+
+    return false;
 };
 $(function () {
     $("#reg").on("tap",function () {

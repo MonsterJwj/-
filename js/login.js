@@ -39,6 +39,7 @@ window.onload = function () {
     };
     return false;
 };
+
 $(function () {
     $("#reg").on("tap",function () {
         $.ajax({
