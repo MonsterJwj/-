@@ -1,0 +1,53 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+section{
+    background: #f0f0f0;
+    height: 65%;
+    display: flex;
+    align-items: center;
+}
+section .register{
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+}
+section .out{
+    padding: .25rem;
+    position: relative;
+}
+section .out input{
+    width: 2rem;
+    height: .3rem;
+    border-radius: .05rem;
+    border: .01rem solid #ccc;
+    text-indent: .1rem;
+    margin: .1rem 0;
+}
+section .out a{
+    display: block;
+    width: 2rem;
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    background: #ff8a00;
+    color: #fff;
+    border-radius: .05rem;
+    margin-top: .05rem;
+}
+section .errText{
+    position: absolute;
+    top: .89rem;
+    left: .25rem;
+    height: .28rem;
+    line-height: .22rem;
+    font-size: .12rem;
+    color: #ff8400;
+}
+section .errText:nth-child(5){
+    top: 1.42rem;
+}
+section .errText:nth-child(7){
+    top: 1.9rem;
+}

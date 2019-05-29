@@ -1,0 +1,39 @@
+{
+  "indexDate": [
+    {
+      "homeImg": "./image/index/img1_ycyasuo.jpg",
+      "title": "文化部中间层  一层带阁楼",
+      "introduce":"2室1厅96㎡南北",
+      "price": "1105万",
+      "address": "红庙北里",
+      "unitPrice": "14268元/平",
+      "describe": ["学区房","独家"]
+    },
+    {
+      "homeImg": "./image/index/img2_ycyasuo.png",
+      "title": "光大水墨  精装复式 稀缺",
+      "introduce":"室1厅96㎡南北",
+      "price": "280万",
+      "address": "光大水墨",
+      "unitPrice": "14268元/平",
+      "describe":["学区房","独家","满五唯一"]
+    },
+    {
+      "homeImg": "./image/index/img3_ycyasuo.png",
+      "title": "南北通透两居  精装修 无",
+      "introduce":"2室1厅96㎡南北",
+      "price": "320万",
+      "address": "北京新天地",
+      "unitPrice": "14268元/平",
+      "describe": ["地铁房","独家"]
+    }
+  ],
+  "hot_follow": [
+    {
+      "hot": ["北京二手房","北京找房无忧","北京二手房价","青年家园","海淀日租房","免税房源","朝阳新房","满五年唯一免税"]
+    },
+    {
+      "hot": ["友情链接","友情链接","友情链接","友情链接","友情链接","友情链接","友情链接","友情链接"]
+    }
+  ]
+}

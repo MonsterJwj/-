@@ -1,0 +1,301 @@
+/*主体内容*/
+section{
+    background: #f5f5f5;
+    overflow: hidden;
+}
+/*搜索栏*/
+section .sea{
+    border: .01rem solid #ccc;
+    margin: .09rem .15rem;
+    border-radius: .05rem;
+    background: #fff;
+    height: .37rem;
+    line-height: .37rem;
+    overflow: hidden;
+}
+section .sea>input{
+    border: none;
+    text-indent: .1rem;
+    font-size: .12rem;
+}
+section .search{
+    float: right;
+    margin-right: .17rem;
+}
+section .search>span:nth-child(2){
+    display: inline-block;
+    width: .16rem;
+    height: .2rem;
+    background: url("../image/SecondHandList/search_03_ycyasuo.png") no-repeat;
+    background-size: 100%;
+    vertical-align: middle;
+    margin-left: .13rem;
+}
+/*区域、价格、房型、更多*/
+.tabMove .tabTitle{
+    width: 100%;
+    display: flex;
+    background: #fff;
+    height: .4rem;
+    line-height: .4rem;
+    border-top: .01rem solid #ccc;
+    border-bottom: .01rem solid #ccc;
+    padding-left: .24rem;
+    z-index: 4;
+}
+.tabMove .tabTitle>li{
+    flex: 1;
+}
+.tabMove .tabTitle>li a{
+    font-size: .17rem;
+    color: #666;
+    font-weight: bold;
+
+    position: relative;
+}
+.tabTitle>li span{
+    display: block;
+    height: 0;
+    width: 0;
+    border-top: .05rem solid #ccc;
+    border-left: .05rem solid transparent;
+    border-right: .05rem solid transparent;
+
+    position: absolute;
+    top: .04rem;
+    left: .4rem;
+}
+/*区域*/
+.Z-hide{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+}
+.someList{
+    width: 100%;
+    position: fixed;
+    top: 0.4rem;
+    left: 0;
+    z-index: 10;
+}
+.someList li{
+    /*display: none;   /!*接口*!/*/
+}
+.area{
+    display: flex;
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    font-size: 0.12rem;
+    display: none;
+}
+
+.area .title{
+    flex: 1;
+    background: #f0f0f0;
+    border-right: 1px solid #cccccc;
+    font-size: 0.12rem;
+    text-align: center;
+}
+.area .title h2{
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+
+.area .title .active{
+    color: #ff8a00;
+    background: #fff;
+    margin-right: -1px;
+    border-right: 2px solid #fff;;
+}
+.area .hideList{
+    flex: 3;
+}
+
+.area .hideList ul li{
+    float: left;
+    width: 45%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    /*margin-left: 0.1rem;*/
+    box-sizing: border-box;
+
+}
+.area .hideList ul li .active{
+    color: #ff8a00;
+}
+.price{
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    font-size: 0.12rem;
+    display: none;
+}
+.price li{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border-bottom: 1px solid #ccc;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+.price li:last-of-type{
+    border-bottom: none;
+}
+
+.house{
+    background: #fff;
+    padding-bottom: 0.2rem;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 3;
+    font-size: 0.12rem;
+    display: none;
+}
+.house li{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border-bottom: 1px solid #ccc;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+.house li:last-of-type{
+    border-bottom: none;
+}
+.house span{
+    width: 0.14rem;
+    height: 0.15rem;
+    float: right;
+    margin-top: 0.12rem;
+    margin-right: 0.2rem;
+    border: 1px solid #c5c3c3;
+}
+.house span.active{
+    border: 1px solid #ff8a00;
+    background: url("../image/SecondHandList/ok_ycyasuo.png") center center no-repeat;
+
+}
+.house  .btnOK{
+    text-align: center;
+    background: #ff8a00;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+}
+.more{
+    background: #fff;
+    width: 100%;
+    padding: 0 0.2rem 0.2rem;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    font-size: 0.12rem;
+    display: none;
+}
+.more h3{
+    padding: 0.2rem 0 0.12rem 0;
+    font-size: 0.14rem;
+}
+.more .childList{
+    padding-bottom: 0.08rem;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+
+
+}
+.more .childList li{
+    float: left;
+    width: 22%;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+    border: 1px solid #cccccc;
+    text-align: center;
+    margin-left: 0.05rem;
+    margin-bottom: 0.12rem;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    font-size: 0.1rem;
+}
+.more .childList li:first-of-type,.more .childList li:nth-of-type(5),.more .childList li:nth-of-type(9){
+    margin-left: 0;
+}
+.more .clear{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+}
+.more .btnOK{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    background: #ff8a00;
+}
+.more .btnOK a{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+/*点击tab 样式*/
+.tabMove .tabTitle li>a.active span{
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #ff8a00;
+    border-left: 5px solid transparent;
+    top: 0.02rem;
+}
+.tabMove .tabTitle li>a.active{
+    color: #ff8a00;
+}
+/*房屋列表*/
+.homesList{
+    padding: 0 .2rem;
+}
+.homesList>li{
+    display: flex;
+    padding: .21rem 0;
+    border-bottom: .01rem solid #ff8a00;
+}
+.homesList .homes_pic{
+    margin-right: .12rem;
+}
+.homesList img{
+    width: .8rem;
+    height: .8rem;
+}
+.homesList h3{
+    margin-bottom: .1rem;
+}
+.homesList .homes_info .list_price{
+    margin: .05rem 0;
+}
+.homesList .list_price>span{
+    color: #ff8a00;
+    font-weight: bold;
+}
+.homesList .homes_info .info_col{
+    color: #b0b0b0;
+}
+.homesList>li:last-child{
+    border-bottom: none;
+}

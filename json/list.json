@@ -1,0 +1,28 @@
+{
+  "homesList": [
+    {
+      "img": "./image/SecondHandList/img1_ycyasuo.png",
+      "title": "西便门外大街2室1厅89平",
+      "floor": "西北 高楼层/6层",
+      "untilPrice": "签约价格：13244元/平",
+      "price": "1105万",
+      "date": "签约日期：2015年11月10日"
+    },
+    {
+      "img": "./image/SecondHandList/img2_ycyasuo.png",
+      "title": "金桥国际 1室1厅 63平",
+      "floor": "西北 高楼层/6层",
+      "untilPrice": "签约价格：13244元/平",
+      "price": "905万",
+      "date": "签约日期：2015年11月10日"
+    },
+    {
+      "img": "./image/SecondHandList/img3_ycyasuo.png",
+      "title": "花涧溪二期 2室2厅 90平",
+      "floor": "西北高楼层/6层",
+      "untilPrice": "签约价格：13244元/平",
+      "price": "1322万",
+      "date": "签约日期：2015年11月10日"
+    }
+  ]
+}

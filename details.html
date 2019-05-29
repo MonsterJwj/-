@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>找房无忧-二手房详情页 </title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/details.css">
+    <link rel="stylesheet" href="./css/swiper-4.1.6.min.css">
+    <script src="./js/zepto.js"></script>
+    <script src="./js/swiper-4.1.6.min.js"></script>
+    <script src="./js/doT.min.js"></script>
+    <script src="./js/rem.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=QgNMnccre7EZEdagyOI1nknWZH8rLPKx"></script>
+    <script src="./js/details.js"></script>
+</head>
+<body>
+<!--页面头部-->
+<header>
+    <div class="logo">
+        <img src="./image/index/logo_ycyasuo.jpg" alt="">
+    </div>
+    <div class="myApp">
+        <a href="./my.html"><img src="./image/index/my_ycyasuo.jpg" alt=""></a>
+        <a href="#"><img src="./image/index/xiazai_ycyasuo.jpg" alt=""></a>
+    </div>
+</header>
+<!--主体内容-->
+<section>
+    <!--banner-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./image/SecondHandList/img_ycyasuo.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/SecondHandList/img_ycyasuo.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/SecondHandList/img_ycyasuo.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/SecondHandList/img_ycyasuo.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/SecondHandList/img_ycyasuo.png" alt="">
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--房子介绍-->
+    <div class="introduce">
+        <h2>天鹅湾小区精装两居，满五唯一，业主换房急售</h2>
+        <div class="home_price">
+            <p><span>576</span> 万元  (单价：46327元/平)</p>
+            <img src="./image/SecondHandList/phone_ycyasuo.png">
+        </div>
+        <p>挂牌时间2015年6月20日</p>
+        <div class="home_intr">
+            <a href="#">学区房</a>
+            <a href="#">独家</a>
+            <a href="#">满五唯一</a>
+        </div>
+    </div>
+    <!--房源“户型、面积”部分-->
+    <ul class="housing">
+        <li><span>户型：</span>3室2厅</li>
+        <li><span>面积：</span>100平</li>
+        <li><span>楼层：</span>中楼层</li>
+        <li><span>朝向：</span>西南</li>
+        <li><span>装修：</span>精装</li>
+        <li><span>楼型：</span>塔楼</li>
+        <li><span>年代：</span>2004年</li>
+        <li><span>区域：</span>西二旗</li>
+        <li><span>首付：</span>123万</li>
+        <li><span>月供：</span>15683元</li>
+        <li><span>地铁：</span>离西二旗地铁站800米</li>
+        <li><span>小区：</span>珠江帝景</li>
+        <li><span>学校：</span>北京市第二实验小学</li>
+        <li><a href="#">更多房源信息</a></li>
+    </ul>
+    <!--房源特色-->
+    <ul class="characteristic">
+        <li>房源特色</li>
+        <li>
+            小区环境优雅，虽处闹市中（小区南200米有美廉美超市、西30米有华联商场、星美国际影城、东北角就是大中电器、小区东100
+            米有汇佳幼儿园、昌平实验一小，昆泰国际大酒...
+        </li>
+        <li><a href="#">更多特色</a></li>
+    </ul>
+    <!--户型分间-->
+    <ul class="apartment">
+        <!--<li>户型分间</li>-->
+        <!--<li>-->
+            <!--<div class="home_pic">-->
+                <!--<img src="./image/SecondHandList/img4.png" alt="">-->
+            <!--</div>-->
+            <!--<div class="home_in">-->
+                <!--<h3>当前格局</h3>-->
+                <!--<p>分间信息：客厅25平米，南北通透</p>-->
+                <!--<div class="home_intr">-->
+                    <!--<a href="#">南北通透</a>-->
+                    <!--<a href="#">全明格局</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</li>-->
+    </ul>
+    <!--正在加载-->
+    <div class="loading">
+        <img src="./image/index/loading-icon.gif" alt="">
+        正在加载更多……
+    </div>
+    <!--对口学校-->
+    <ul class="school">
+        <li><h2>对口学校</h2></li>
+        <li><span>学校名称：</span>北京市第二实验小学</li>
+        <li><span>升学方式：</span>直升、派位</li>
+        <li><span>对口中学：</span>团结湖中学</li>
+        <li><span>划片小区：</span>3个划片小区 在售房源150套</li>
+        <li><span>学校特色：</span>包食宿、有校车</li>
+        <li><a href="#">查看学校详情</a></li>
+    </ul>
+    <!--位置及周边-->
+    <ul class="position">
+        <li><h2>位置及周边</h2></li>
+        <li id="allmap">
+
+        </li>
+    </ul>
+    <!--推荐房源-->
+    <div class="hot_title"><h2>推荐房源</h2></div>
+    <ul id="home_list">
+        <!--<li>-->
+            <!--<div class="home_pic">-->
+                <!--<img src="./image/index/img1.jpg" alt="">-->
+            <!--</div>-->
+            <!--<div class="home_info">-->
+                <!--<h3>文化部中间层  一层带阁楼</h3>-->
+                <!--<div class="price">-->
+                    <!--<span>2室1厅96㎡南北</span>-->
+                    <!--<span>1105万</span>-->
+                <!--</div>-->
+                <!--<div class="unitPrice">-->
+                    <!--<span>红庙北里</span>-->
+                    <!--<span>14268元/平</span>-->
+                <!--</div>-->
+                <!--<div class="home_describe">-->
+                    <!--<a href="#">学区房</a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="massage">-->
+                <!--<div class="frame">-->
+                    <!--<span></span>-->
+                    <!--推荐理由：同户型、通风好、采光好-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</li>-->
+    </ul>
+    <div class="lookMove">
+        <a href="#">查看更多相似房源</a>
+    </div>
+</section>
+<!--页面底部-->
+<footer>
+    <div class="foot_title">
+        北京找房无忧 > 首页
+    </div>
+    <div class="foot_content">
+        <ul>
+            <li>
+                <img src="./image/index/apple_ycyasuo.png" alt="">
+                <div class="app">
+                    <p>iPhone</p>
+                    <p>客户端</p>
+                </div>
+            </li>
+            <li>
+                <img src="./image/index/android_ycyasuo.png" alt="">
+                <div class="app">
+                    <p>Android</p>
+                    <p>客户端</p>
+                </div>
+            </li>
+        </ul>
+        <p>北京找房无忧房地产经纪公司</p>
+        <p>网络经营许可证京ICP备20160812号</p>
+    </div>
+</footer>
+<!--底部 联系经纪人-->
+<div class="contact">
+    <div class="contact_peo">
+        <span></span>
+        联系经纪人
+    </div>
+    <div class="greenHeart">
+        <span></span>
+        关注
+    </div>
+</div>
+</body>
+<!--户型分间 1.准备模板-->
+<script id="apartmentList" type="text/x-dot-template">
+    {{~it.apartmentTitle:value:index}}
+    <li>{{=value}}</li>
+    {{~}}
+    {{~it.apartment:value:index}}
+    <li>
+        <div class="home_pic">
+            <img src="{{=value.img}}" alt="">
+        </div>
+        <div class="home_in">
+            <h3>{{=value.title}}</h3>
+            <p>{{=value.describe}}</p>
+            <div class="home_intr">
+                {{~value.introduce:val:ind}}
+                <a href="#">{{=val}}</a>
+                {{~}}
+            </div>
+        </div>
+    </li>
+    {{~}}
+</script>
+<!--推荐房源-->
+<script id="HousingList" type="text/x-dot-template">
+    {{~it.housingSources:value:index}}
+    <li>
+    <div class="home_pic">
+        <img src="{{=value.homeImg}}" alt="">
+        </div>
+        <div class="home_info">
+        <h3>{{=value.title}}</h3>
+    <div class="price">
+        <span>{{=value.introduce}}</span>
+        <span>{{=value.price}}</span>
+    </div>
+    <div class="unitPrice">
+        <span>{{=value.address}}</span>
+        <span>{{=value.unitPrice}}</span>
+    </div>
+    <div class="home_describe">
+        <a href="#">{{=value.describe}}</a>
+        </div>
+        </div>
+        <div class="massage">
+        <div class="frame">
+        <span></span>
+        {{=value.reason}}
+    </div>
+    </div>
+    </li>
+    {{~}}
+</script>
+</html>

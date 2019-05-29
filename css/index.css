@@ -1,0 +1,189 @@
+/*banner*/
+section{
+    background: #f5f5f5;
+}
+section .banner{
+    height: 2.25rem;
+    background: url("../image/index/banner_ycyasuo.png") center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+section .search{
+   position: absolute;
+    bottom: .08rem;
+    left: .13rem;
+}
+section .banner input{
+    width: 2.9rem;
+    height: .36rem;
+    text-indent: .25rem;
+    padding: .05rem .07rem;
+    border-radius: .08rem;
+    border: .04rem solid #ededed;
+    box-shadow: -.02rem -.02rem 0 0 #9a9a9a;
+    background: url("../image/index/seach_ycyasuo.jpg") .05rem center no-repeat #fff;
+    box-sizing: border-box;
+    background-size: .2rem .2rem;
+    color: #757575;
+    font-size: .13rem;
+}
+
+/*导航*/
+nav{
+    background: #ff8a00;
+}
+nav ul{
+    height: 1.09rem;
+    display: flex;
+    align-items: center;
+}
+nav ul>li{
+    flex: 1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav ul>li a{
+    display: block;
+    width: .54rem;
+    height: .54rem;
+    margin-bottom: .05rem;
+}
+nav ul>li:nth-child(1) a{
+    background: url("../image/index/index_03_ycyasuo.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+nav ul>li:nth-child(2) a{
+    background: url("../image/index/index_05_ycyasuo.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+nav ul>li:nth-child(3) a{
+    background: url("../image/index/index_07_ycyasuo.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+nav ul>li:nth-child(4) a{
+    background: url("../image/index/index_09_ycyasuo.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/*“02news”广告*/
+section .news{
+    margin: .1rem 0;
+}
+section .news>img{
+    width: 100%;
+    height: auto;
+}
+
+/*热门房源*/
+section .hot_home{
+    height: .62rem;
+    background: #ff8a00;
+    color: #fff;
+    padding: .13rem .2rem;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+section .hot_home>p:nth-child(1){
+    font-size: .18rem;
+}
+/*热门关注 友情链接*/
+.hot_follow{
+    border-top: .01rem solid #ccc;
+    background: #fff;
+}
+.hot_follow .hot_tit{
+    height: .56rem;
+    line-height: .56rem;
+    color: #b3b3b3;
+    font-size: 0;
+    display: flex;
+}
+.hot_follow .hot_tit>span{
+    display: block;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    font-size: .17rem;
+    font-weight: bold;
+    border-bottom: .01rem solid #ff8a00;
+}
+.hot_follow .hot_cont{
+    padding: .13rem .2rem;
+}
+.hot_follow .hot_cont>ul{
+    width: 100%;
+}
+.hot_cont ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.hot_cont ul>li{
+    width: 50%;
+    float: left;
+    margin: .07rem 0;
+    font-size: .14rem;
+}
+.hot_cont ul>li>a{
+    color: #666;
+}
+/*隐藏 友情链接 的子菜单*/
+.hot_follow .hot_cont>ul:nth-child(2){
+    display: none;
+}
+
+/*切换样式*/
+.hot_follow>.hot_tit .hot_light{
+    color: #ffab47;
+    border-bottom: .02rem solid #ff8a00;
+}
+
+/*置底导航*/
+.bottomNav{
+    height: .5rem;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    width: 100%;
+
+    position: fixed;
+    bottom: 0;
+}
+.botNav{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.bottomNav .botNav>img{
+    width: .3rem;
+    height: .3rem;
+    margin-left: .29rem;
+}
+.bottomNav .botNav_text{
+    margin: 0 .17rem;
+}
+.bottomNav .botNav_text>p:nth-child(1){
+    font-size: .18rem;
+}
+.bottomNav span{
+    display: block;
+    background: #ff8a00;
+    height: .5rem;
+    line-height: .5rem;
+    flex-grow: 1;
+    font-size: .16rem;
+    text-indent: .32rem;
+    cursor: pointer;
+}
+.bottomNav .botNav>i{
+    display: block;
+    width: .14rem;
+    height: .14rem;
+    background: url("../image/index/close_ycyasuo.png") no-repeat center center;
+    background-size: 100% 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
